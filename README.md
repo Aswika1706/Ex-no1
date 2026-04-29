@@ -2,7 +2,6 @@
 # 8086 Assembly Language Programs for Arithmetic Operations
 
 ## AIM
-
 To write and execute Assembly Language Programs to perform arithmetic operations for the 8086 microprocessor.
 
 ---
@@ -56,17 +55,19 @@ END
 
 | MEMORY LOCATION (INPUT) | MEMORY LOCATION (OUTPUT) |
 | ----------------------- | ------------------------ |
-|       1200🔢       01         12
-
-|         1200                    |
+|       2000 : 12         |        2004 : 24         |
+|       2001 : 34         |        2005 : 68         | 
+|       2002 : 12         |        2006 : 00         |
+|       2003 : 34         |                          |
 
 #### Manual Calculations
 
-(Add your calculation here)
+<img width="368" height="395" alt="image" src="https://github.com/user-attachments/assets/e809be4f-d9a9-49b3-a821-d8eca3299388" />
 
 ---
 
 ## OUTPUT IMAGE FROM MASM SOFTWARE
+<img width="568" height="351" alt="image" src="https://github.com/user-attachments/assets/c6635f9d-63c4-414d-8c3c-6d76c923380c" />
 
 ## 2. SUBTRACTION
 
@@ -106,19 +107,23 @@ END
 
 
 #### Output Table
-
 | MEMORY LOCATION (INPUT) | MEMORY LOCATION (OUTPUT) |
 | ----------------------- | ------------------------ |
-|                         |                          |
+|       2000 : 12         |        2004 : 00         |
+|       2001 : 34         |        2005 : 00         | 
+|       2002 : 12         |                          |
+|       2003 : 34         |                          |
+
 
 #### Manual Calculations
+<img width="402" height="595" alt="image" src="https://github.com/user-attachments/assets/de49ebbc-e0a6-4c4f-ab1a-7b4d21e29ddc" />
 
-(Add your calculation here)
 
 ---
 
 
 ## OUTPUT SCREEN FROM MASM SOFTWARE
+<img width="590" height="361" alt="image" src="https://github.com/user-attachments/assets/307845a1-e069-4614-83aa-750592d9ebab" />
 
 ## 3. MULTIPLICATION
 
@@ -155,18 +160,22 @@ END
 ```
 
 #### Output Table
-
 | MEMORY LOCATION (INPUT) | MEMORY LOCATION (OUTPUT) |
 | ----------------------- | ------------------------ |
-|                         |                          |
+|       2000 : 12         |        2004 : 90         |
+|       2001 : 34         |        2005 : 5A         | 
+|       2002 : 12         |        2006 : 4B         |
+|       2003 : 34         |        2007 : 01         |
+
 
 #### Manual Calculations
+<img width="513" height="288" alt="image" src="https://github.com/user-attachments/assets/95cfb3c9-530f-4bb5-94c6-cbb79e25969a" />
 
-(Add your calculation here)
 
 ---
 
 ## OUTPUT SCREEN FROM MASM SOFTWARE
+<img width="565" height="349" alt="image" src="https://github.com/user-attachments/assets/48d1da36-05bf-4d1b-bc13-853b65e573dc" />
 
 ## 4. DIVISION
 
@@ -200,18 +209,19 @@ END
 ```
 
 #### Output Table
-
 | MEMORY LOCATION (INPUT) | MEMORY LOCATION (OUTPUT) |
 | ----------------------- | ------------------------ |
-|                         |                          |
+|       2000 : 12         |        2004 : 01         |
+|       2001 : 34         |        2005 : 00         | 
+|       2002 : 12         |        2006 : 00         |
+|       2003 : 34         |        2007 : 00         |
 
 #### Manual Calculations
-
-(Add your calculation here)
+<img width="489" height="323" alt="image" src="https://github.com/user-attachments/assets/9b66eba3-0d7a-49df-b0c3-db19722347d4" />
 
 ---
 ## OUTPUT FROM MASM SOFTWARE
-
+<img width="494" height="317" alt="image" src="https://github.com/user-attachments/assets/45514395-c8ed-48d1-b783-a1c7707aad73" />
 
 
 ## RESULT
